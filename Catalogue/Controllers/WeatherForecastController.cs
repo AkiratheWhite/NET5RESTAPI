@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Catalogue.Controllers
 {
+    //Controllers are classes that handle the routes that the service exposes.
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
